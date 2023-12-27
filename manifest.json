@@ -26,8 +26,8 @@
 
     "screenshots": [
         {
-            "src": "./assets/screenshot-mobile-328x628.png",
-            "sizes": "328x628",
+            "src": "./assets/screenshot-mobile-376x672.png",
+            "sizes": "376x672",
             "type": "image/png",
             "form_factor": "narrow"
         }]
