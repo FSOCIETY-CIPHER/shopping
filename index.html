@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Savi Mini Mart</title>
+    <link rel="stylesheet" href="./assets/icon-192.png">
+    <link rel="stylesheet" href="./index.css">
+    <script src="./dexie.min.js"></script>
+    <script>
+        if('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('./sw.js');
+            });
+        }
+    </script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/dexie@3/dist/dexie.min.js"></script> -->
+
+</head>
+<body>
+    <nav>
+        <p> Savi List</p>
+    </nav>
+    <div class="container">
+        <form id="itemForm" action="">
+            <label>
+                Name of Item:
+                <input type="text" id="nameInput" required>
+            </label>
+
+            <label>
+                Quantity:
+                <input type="number" id="quantityInput" required>
+            </label>
+
+            <label>
+                Price:
+                <input type="text" id="priceInput">
+            </label> 
+
+            <button type="submit" id="addItemButton">Add Item</button>
+        </form>
+    </div>
+    
+    <div id="itemsDiv"></div>
+    <div id="totalPriceDiv"></div>
+    
+
+    <script src="./index.js"></script>
+</body>
+</html>
