@@ -1,6 +1,7 @@
 {
     "name": "Shopping Mart",
     "short_name": "Shopping Mart",
+    "id": "/shopping/",
     "icons": [
         {
             "src": "./assets/icon-192.png",
