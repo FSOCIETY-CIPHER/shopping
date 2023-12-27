@@ -22,5 +22,13 @@
     "background_color": "#FFFFFF",
     "start_url": "/shopping/",
     "display": "standalone",
-    "orientation": "portrait"
+    "orientation": "portrait",
+
+    "screenshots": [
+        {
+            "src": "./assets/screenshot-mobile-328x628.png",
+            "sizes": "328x628",
+            "type": "image/png",
+            "form_factor": "narrow"
+        }]
 }
