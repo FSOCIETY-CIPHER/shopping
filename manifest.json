@@ -24,6 +24,9 @@
     "start_url": "/shopping/",
     "display": "standalone",
     "orientation": "portrait",
+    "splash_screen": {
+        "src": "./assets/icon-192.png"
+    },
 
     "screenshots": [
         {
