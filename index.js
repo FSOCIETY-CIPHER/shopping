@@ -1,4 +1,4 @@
-const db = new Dexie('SaviMiniMSrt')
+const db = new Dexie('SivaMiniMart')
 db.version(1).stores( { items: '++id,name,price,isPurchased' })
 
 const itemForm = document.getElementById('itemForm')
@@ -19,7 +19,7 @@ const populateItemsDiv = async () => {
 
             <div class="itemInfo">
                 <p>${item.name}</p>
-                <p>$${item.price} x ${item.quantity}</p>
+                <p>€${item.price} x ${item.quantity}</p>
             </div>
 
             <button class="deleteButton" onclick="removeItem(${item.id})">
