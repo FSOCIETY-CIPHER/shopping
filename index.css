@@ -8,7 +8,7 @@ body {
 }
 
 nav { 
-    background: #00805a;
+    background: #1c0080;
     height: 3rem;
     line-height: 3rem;
     color: white;
@@ -37,7 +37,7 @@ nav {
 
 #addItemButton {
     border: unset;
-    background: #00805a;
+    background: #1c0080;
     color: #fff;
     padding: 0.5rem;
 }
@@ -79,7 +79,7 @@ nav {
 }
 
 .purchased {
-    background: #00805a;
+    background: #1c0080;
     color: #fff
 }
 
